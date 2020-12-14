@@ -1,0 +1,254 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+    .explore__text {
+        transform: translateX(-435px);
+    }
+    .promo__main {
+        padding: 80px 0px 50px 0px;
+    }
+    .footer__inner {
+        padding: 50px 0px;
+    }
+    .footer__column-item-icon,
+    .footer__column-item {
+        margin-bottom: 10px;
+    }
+}
+
+// ================================================================
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+
+    .promo__form-column {
+        width: 150px;
+    }
+    .promo__input {
+        font-size: 40px;
+    }
+    .promo__select select {
+        font-size: 13px;
+    }
+    .promo__form {
+        height: 130px;
+    }
+    .title {
+        font-size: 40px;
+    }
+    .rooms__inner {
+        padding: 50px 0px;
+    }
+    .rooms__title {
+        margin-bottom: 50px;
+    }
+    .rooms__item {
+        width: 50%;
+    }
+    .rooms__overlay {
+        padding: 40px 20px;
+        width: auto;
+    }
+    .explore__inner {
+        flex-wrap: wrap;
+        padding: 50px 0px;
+    }
+    .explore__text {
+        transform: translateX(0);
+    }
+    .explore__img {
+        min-width: 300px;
+    }
+    .explore__title {
+        text-align: center;
+    }
+    .services__inner {
+        padding: 50px 0px;
+    }
+    .services__title {
+        margin-bottom: 50px;
+    }
+    .services__column {
+        padding: 0px 10px;
+    }
+    .best {
+        flex-wrap: wrap;
+    }
+    .best__img {
+        flex: 0 1 100%;
+        height: 500px;
+    }
+    .best__content {
+        flex: 0 1 100%;
+        padding: 50px 15px;
+    }
+    .testimonials__inner {
+        padding: 50px 0px;
+    }
+    .testimonials__title {
+        margin-bottom: 50px;
+    }
+    .testimonials__slider-text {
+        margin: 0;
+    }
+    .video {
+        padding: 50px 0px;
+        height: 70%;
+    }
+    .footer__row {
+        flex-wrap: wrap;
+    }
+    .footer__column {
+        width: 50%;
+    }
+    .footer__column {
+        padding: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .footer__column-title {
+        display: none;
+    }
+    .best__title {
+        margin-bottom: 50px;
+    }
+    .menu {
+        width: 50%;
+    }
+}
+
+// ================================================================
+
+@media (max-width: 768px) {
+    .container {
+        max-width: none;
+    }
+    .header__search-form {
+        display: none;
+    }
+    .promo__socials {
+        display: none;
+    }
+    .title {
+        font-size: 25px;
+        text-align: center;
+    }
+    .testimonials__slider-text {
+        width: 100%;
+    }
+    .testimonials__inner {
+        width: 100%;
+    }
+    .promo__form {
+        flex-wrap: wrap;
+        height: auto;
+        padding-top: 30px;
+        justify-content: center;
+    }
+    .promo__form-btn {
+        width: 50%;
+    }
+    .promo__title {
+        width: auto;
+    }
+    .promo__form-column {
+        margin-bottom: 50px;
+    }
+    .explore__text {
+        height: auto;
+        padding: 30px 10px;
+    }
+    .testimonials__inner {
+        padding: 20px;
+    }
+    .footer__column {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        padding: 0px 50px;
+    }
+    .footer__column-socals {
+        a {
+            margin: 0px 10px;
+        }
+    }
+    .menu {
+        width: 100%;
+    }
+}
+
+// ================================================================
+
+@media (max-width: 414px) {
+    .container {
+        max-width: none;
+    }
+    .promo__form-column {
+        width: 100%;
+    }
+    .promo__form-btn {
+        padding: 10px 0px;
+        border-radius: 5px;
+    }
+    .rooms__item {
+        width: 100%;
+    }
+    .explore__text {
+        min-width: 300px;
+    }
+    .explore__img {
+        height: 450px;
+    }
+    .explore__inner {
+        padding: 10px 0px;
+    }
+    .services__row {
+        flex-wrap: wrap;
+    }
+    .services__column {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .services__inner {
+        padding: 10px 0px;
+    }
+    .services__title {
+        margin-bottom: 20px;
+    }
+    .services__icon-title,
+    .services__icon {
+        margin-bottom: 10px;
+    }
+    .best__btn {
+        padding: 10px 20px;
+    }
+    .testimonials__title {
+        margin-bottom: 10px;
+    }
+    .testimonials__slider-text {
+        height: auto;
+    }
+    .video__title {
+        width: 100%;
+    }
+    .header__logo {
+        font-size: 30px;
+    }
+    .best__text {
+        line-height: 25px;
+    }
+    .testimonials__slider-text {
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+    .testimonials__slider-name {
+        font-size: 15px;
+    }
+    .menu__link {
+        font-size: 30px;
+    }
+}

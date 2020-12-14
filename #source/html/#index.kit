@@ -2,13 +2,619 @@
 
 <body>
 	<div class="wrapper">
-		<!-- @import "header.html" -->
+		<div id="up"></div>
+		<!-- ================================================================ -->
+		<nav class="menu">
+			<div class="menu__close">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="22" height="28" viewBox="0 0 22 28">
+					<title>close</title>
+					<path
+						d="M20.281 20.656c0 0.391-0.156 0.781-0.438 1.062l-2.125 2.125c-0.281 0.281-0.672 0.438-1.062 0.438s-0.781-0.156-1.062-0.438l-4.594-4.594-4.594 4.594c-0.281 0.281-0.672 0.438-1.062 0.438s-0.781-0.156-1.062-0.438l-2.125-2.125c-0.281-0.281-0.438-0.672-0.438-1.062s0.156-0.781 0.438-1.062l4.594-4.594-4.594-4.594c-0.281-0.281-0.438-0.672-0.438-1.062s0.156-0.781 0.438-1.062l2.125-2.125c0.281-0.281 0.672-0.438 1.062-0.438s0.781 0.156 1.062 0.438l4.594 4.594 4.594-4.594c0.281-0.281 0.672-0.438 1.062-0.438s0.781 0.156 1.062 0.438l2.125 2.125c0.281 0.281 0.438 0.672 0.438 1.062s-0.156 0.781-0.438 1.062l-4.594 4.594 4.594 4.594c0.281 0.281 0.438 0.672 0.438 1.062z">
+					</path>
+				</svg>
+
+			</div>
+			<ul class="menu__list">
+				<li class="menu__item">
+					<a href="#promo" class="menu__link">
+						<span>promo</span>
+					</a>
+				</li>
+				<li class="menu__item">
+					<a href="#rooms" class="menu__link">
+						<span>rooms</span>
+					</a>
+				</li>
+				<li class="menu__item">
+					<a href="#services" class="menu__link">
+						<span>services</span>
+					</a>
+				</li>
+				<li class="menu__item">
+					<a href="#testimonials" class="menu__link">
+						<span>tesimonials</span>
+					</a>
+				</li>
+				<li class="menu__item">
+					<a href="#footer" class="menu__link">
+						<span>contacts</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- ================================================================ -->
+		<header class="header">
+			<div class="header__burger burger">
+				<div class="header__burger-line-1 header__burger-line"></div>
+				<div class="header__burger-line-2 header__burger-line"></div>
+				<div class="header__burger-line-3 header__burger-line"></div>
+			</div>
+
+			<a href="#" class="header__logo">
+				<span>A</span><span>i</span><span>r</span><span>b</span><span>o</span><span>o</span><span>k</span><span>i</span><span>n</span><span>g</span>
+			</a>
+			<form action="" class="header__search-form">
+				<div class="header__search-input">
+					<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value=""
+						placeholder="Search...">
+				</div>
+				<div class="header__search-btn">
+					<input type="submit"></input>
+				</div>
+			</form>
+		</header>
+		<!-- ================================================================ -->
+		<section class="promo" id="promo">
+			<div class="promo__inner">
+				<div class="promo__socials">
+					<a href="#" class="promo__socials-icon">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="28"
+							viewBox="0 0 16 28">
+							<title>facebook</title>
+							<path
+								d="M14.984 0.187v4.125h-2.453c-1.922 0-2.281 0.922-2.281 2.25v2.953h4.578l-0.609 4.625h-3.969v11.859h-4.781v-11.859h-3.984v-4.625h3.984v-3.406c0-3.953 2.422-6.109 5.953-6.109 1.687 0 3.141 0.125 3.563 0.187z">
+							</path>
+						</svg>
+					</a>
+					<a href="#" class="promo__socials-icon">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="26" height="28"
+							viewBox="0 0 26 28">
+							<title>twitter</title>
+							<path
+								d="M25.312 6.375c-0.688 1-1.547 1.891-2.531 2.609 0.016 0.219 0.016 0.438 0.016 0.656 0 6.672-5.078 14.359-14.359 14.359-2.859 0-5.516-0.828-7.75-2.266 0.406 0.047 0.797 0.063 1.219 0.063 2.359 0 4.531-0.797 6.266-2.156-2.219-0.047-4.078-1.5-4.719-3.5 0.313 0.047 0.625 0.078 0.953 0.078 0.453 0 0.906-0.063 1.328-0.172-2.312-0.469-4.047-2.5-4.047-4.953v-0.063c0.672 0.375 1.453 0.609 2.281 0.641-1.359-0.906-2.25-2.453-2.25-4.203 0-0.938 0.25-1.797 0.688-2.547 2.484 3.062 6.219 5.063 10.406 5.281-0.078-0.375-0.125-0.766-0.125-1.156 0-2.781 2.25-5.047 5.047-5.047 1.453 0 2.766 0.609 3.687 1.594 1.141-0.219 2.234-0.641 3.203-1.219-0.375 1.172-1.172 2.156-2.219 2.781 1.016-0.109 2-0.391 2.906-0.781z">
+							</path>
+						</svg>
+					</a>
+					<a href="#" class="promo__socials-icon">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="28"
+							viewBox="0 0 24 28">
+							<title>linkedin</title>
+							<path
+								d="M5.453 9.766v15.484h-5.156v-15.484h5.156zM5.781 4.984c0.016 1.484-1.109 2.672-2.906 2.672v0h-0.031c-1.734 0-2.844-1.188-2.844-2.672 0-1.516 1.156-2.672 2.906-2.672 1.766 0 2.859 1.156 2.875 2.672zM24 16.375v8.875h-5.141v-8.281c0-2.078-0.75-3.5-2.609-3.5-1.422 0-2.266 0.953-2.641 1.875-0.125 0.344-0.172 0.797-0.172 1.266v8.641h-5.141c0.063-14.031 0-15.484 0-15.484h5.141v2.25h-0.031c0.672-1.062 1.891-2.609 4.672-2.609 3.391 0 5.922 2.219 5.922 6.969z">
+							</path>
+						</svg>
+					</a>
+					<a href="#" class="promo__socials-icon">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="28"
+							viewBox="0 0 24 28">
+							<title>instagram</title>
+							<path
+								d="M16 14c0-2.203-1.797-4-4-4s-4 1.797-4 4 1.797 4 4 4 4-1.797 4-4zM18.156 14c0 3.406-2.75 6.156-6.156 6.156s-6.156-2.75-6.156-6.156 2.75-6.156 6.156-6.156 6.156 2.75 6.156 6.156zM19.844 7.594c0 0.797-0.641 1.437-1.437 1.437s-1.437-0.641-1.437-1.437 0.641-1.437 1.437-1.437 1.437 0.641 1.437 1.437zM12 4.156c-1.75 0-5.5-0.141-7.078 0.484-0.547 0.219-0.953 0.484-1.375 0.906s-0.688 0.828-0.906 1.375c-0.625 1.578-0.484 5.328-0.484 7.078s-0.141 5.5 0.484 7.078c0.219 0.547 0.484 0.953 0.906 1.375s0.828 0.688 1.375 0.906c1.578 0.625 5.328 0.484 7.078 0.484s5.5 0.141 7.078-0.484c0.547-0.219 0.953-0.484 1.375-0.906s0.688-0.828 0.906-1.375c0.625-1.578 0.484-5.328 0.484-7.078s0.141-5.5-0.484-7.078c-0.219-0.547-0.484-0.953-0.906-1.375s-0.828-0.688-1.375-0.906c-1.578-0.625-5.328-0.484-7.078-0.484zM24 14c0 1.656 0.016 3.297-0.078 4.953-0.094 1.922-0.531 3.625-1.937 5.031s-3.109 1.844-5.031 1.937c-1.656 0.094-3.297 0.078-4.953 0.078s-3.297 0.016-4.953-0.078c-1.922-0.094-3.625-0.531-5.031-1.937s-1.844-3.109-1.937-5.031c-0.094-1.656-0.078-3.297-0.078-4.953s-0.016-3.297 0.078-4.953c0.094-1.922 0.531-3.625 1.937-5.031s3.109-1.844 5.031-1.937c1.656-0.094 3.297-0.078 4.953-0.078s3.297-0.016 4.953 0.078c1.922 0.094 3.625 0.531 5.031 1.937s1.844 3.109 1.937 5.031c0.094 1.656 0.078 3.297 0.078 4.953z">
+							</path>
+						</svg>
+					</a>
+				</div>
+				<div class="promo__main">
+					<div class="promo__title title">
+						A Brand New Hotel
+						Beyond Ordinary
+					</div>
+					<a href="#" class="promo__btn">
+						Exploere IT
+					</a>
+					<form action="" class="promo__form">
+						<div class="promo__form-column">
+							<label class="promo__form-label">
+								Check In
+							</label>
+							<div class="promo__input">
+								<input autocomplete="off" type="number" name="form[]" data-error="Ошибка" data-value=""
+									class="input" maxlength="2" value="31">
+							</div>
+							<div class="promo__select">
+								<select name="form[]" class="form">
+									<option value="1" selected="selected">January</option>
+									<option value="2">February</option>
+									<option value="3">March</option>
+									<option value="4">April</option>
+									<option value="4">May</option>
+									<option value="4">June</option>
+									<option value="4">July</option>
+									<option value="4">August</option>
+									<option value="4">September</option>
+									<option value="4">Oktober</option>
+									<option value="4">November</option>
+									<option value="4">December</option>
+								</select>
+							</div>
+						</div>
+						<div class="promo__form-column">
+							<label class="promo__form-label">
+								Check Out
+							</label>
+							<div class="promo__input">
+								<input autocomplete="off" type="number" name="form[]" data-error="Ошибка" data-value=""
+									class="input" maxlength="2" value="11">
+							</div>
+							<div class="promo__select">
+								<select name="form[]" class="form">
+									<option value="1" selected="selected">January</option>
+									<option value="2">February</option>
+									<option value="3">March</option>
+									<option value="4">April</option>
+									<option value="4">May</option>
+									<option value="4">June</option>
+									<option value="4">July</option>
+									<option value="4">August</option>
+									<option value="4">September</option>
+									<option value="4">Oktober</option>
+									<option value="4">November</option>
+									<option value="4">December</option>
+								</select>
+							</div>
+						</div>
+						<div class="promo__form-column">
+							<label class="promo__form-label">
+								Guest
+							</label>
+							<div class="promo__input">
+								<input autocomplete="off" type="number" name="form[]" data-error="Ошибка" data-value=""
+									class="input" maxlength="2" value="5">
+							</div>
+							<div class="promo__select">
+								<select name="form[]" class="form">
+									<option value="1" selected="selected">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="4">5</option>
+									<option value="4">6</option>
+									<option value="4">7</option>
+									<option value="4">8</option>
+									<option value="4">9</option>
+									<option value="4">10</option>
+								</select>
+							</div>
+						</div>
+						<button class="promo__form-btn" type="submit">
+							check
+							Availability
+						</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		<!-- ================================================================ -->
+		<section class="rooms" id="rooms">
+			<div class="container">
+				<div class="rooms__inner">
+					<div class="rooms__title title">
+						Our Rooms
+					</div>
+					<ul class="rooms__content">
+						<li class="rooms__item">
+							<div class="rooms__img">
+								<img src="img/rooms/1.jpg" alt="">
+							</div>
+							<div class="rooms__overlay">
+								<div class="rooms__overlay-title">
+									Family Room
+								</div>
+								<a href="#popup-1" class="rooms__overlay-btn popup-link-1">
+									enlarge
+								</a>
+								<div class="rooms__overlay-price">
+									From 30$
+								</div>
+							</div>
+						</li>
+						<li class="rooms__item">
+							<div class="rooms__img">
+								<img src="img/rooms/2.jpg" alt="">
+							</div>
+							<div class="rooms__overlay">
+								<div class="rooms__overlay-title">
+									Luxary Room
+								</div>
+								<a href="#popup-2" class="rooms__overlay-btn popup-link-2">
+									enlarge
+								</a>
+								<div class="rooms__overlay-price">
+									From 30$
+								</div>
+							</div>
+						</li>
+						<li class="rooms__item">
+							<div class="rooms__img">
+								<img src="img/rooms/3.jpg" alt="">
+							</div>
+							<div class="rooms__overlay">
+								<div class="rooms__overlay-title">
+									Single Room
+								</div>
+								<a href="#popup-3" class="rooms__overlay-btn popup-link-3">
+									enlarge
+								</a>
+								<div class="rooms__overlay-price">
+									From 30$
+								</div>
+							</div>
+						</li>
+						<li class="rooms__item">
+							<div class="rooms__img">
+								<img src="img/rooms/4.jpg" alt="">
+							</div>
+							<div class="rooms__overlay">
+								<div class="rooms__overlay-title">
+									double Room
+								</div>
+								<a href="#popup-4" class="rooms__overlay-btn popup-link-4">
+									enlarge
+								</a>
+								<div class="rooms__overlay-price">
+									From 30$
+								</div>
+							</div>
+						</li>
+						<li class="rooms__item">
+							<div class="rooms__img">
+								<img src="img/rooms/5.jpg" alt="">
+							</div>
+							<div class="rooms__overlay">
+								<div class="rooms__overlay-title">
+									Family Room
+								</div>
+								<a href="#popup-5" class="rooms__overlay-btn popup-link-5">
+									enlarge
+								</a>
+								<div class="rooms__overlay-price">
+									From 30$
+								</div>
+							</div>
+						</li>
+						<li class="rooms__item">
+							<div class="rooms__img">
+								<img src="img/rooms/6.jpg" alt="">
+							</div>
+							<div class="rooms__overlay">
+								<div class="rooms__overlay-title">
+									Family Room
+								</div>
+								<a href="#popup-6" class="rooms__overlay-btn popup-link-6">
+									enlarge
+								</a>
+								<div class="rooms__overlay-price">
+									From 30$
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!-- ================================================================ -->
+		<section class="explore">
+			<div class="container">
+				<div class="explore__inner">
+					<div class="explore__img">
+						<img src="img/explore/1.jpg" alt="">
+					</div>
+					<div class="explore__text">
+						<div class="explore__title">
+							Explorer Your Best Room
+						</div>
+						<div class="explore__descr">
+							Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque
+							euismod orci ut et lobortis. Phasellus enim libero, blandit vel sapien vitae, condimentum
+							ultricies magna et. Quisque euismod orci ut et lobortis. Phasellus enim libero.
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ================================================================ -->
+		<section class="services" id="services">
+			<div class="container">
+				<div class="services__inner">
+					<div class="services__title title">
+						Our Services
+					</div>
+					<div class="services__row">
+						<div class="services__column">
+							<div class="services__icon">
+								<img src="img/services/1.png" alt="">
+							</div>
+							<div class="services__icon-title">
+								Restaurant
+							</div>
+							<div class="services__icon-text">
+								Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque
+								euismod orci ut et lobortis.
+							</div>
+						</div>
+						<div class="services__column">
+							<div class="services__icon">
+								<img src="img/services/2.png" alt="">
+							</div>
+							<div class="services__icon-title">
+								Sports Club
+							</div>
+							<div class="services__icon-text">
+								Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque
+								euismod orci ut et lobortis.
+							</div>
+						</div>
+						<div class="services__column">
+							<div class="services__icon">
+								<img src="img/services/3.png" alt="">
+							</div>
+							<div class="services__icon-title">
+								Pick up
+							</div>
+							<div class="services__icon-text">
+								Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque
+								euismod orci ut et lobortis.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ================================================================ -->
+		<section class="best">
+			<div class="best__img ibg">
+				<img src="img/best/1.jpg" alt="">
+			</div>
+			<div class="best__content">
+				<div class="best__title title">
+					Find Your Best Room Here
+				</div>
+				<div class="best__text">
+					<p>
+						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+						laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+						beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+						odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+					</p>
+					<p>
+						Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+						sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam.
+					</p>
+				</div>
+				<a href="#" class="best__btn">
+					Read More
+				</a>
+			</div>
+		</section>
+		<!-- ================================================================ -->
+		<section class="testimonials" id="testimonials">
+			<div class="testimonials__inner">
+				<div class="testimonials__title title">
+					From The Guest
+				</div>
+				<div class="testimonials__slider">
+					<div class="testimonials__slider-item">
+						<div class="testimonials__slider-text">
+							Well-positioned in Pratunam area, Baiyoke Suite Hotel is the ideal point of departure for
+							your excursions in Bangkok. Guests can take full advantage of the property's convenient
+							location and proximity to everything the vibrant city has to offer to its tourists. You
+							don't have to travel anywhere for sightseeing, as the hotel is just a short distance from
+							Indra Square, Country Road Fashions, Baiyoke II Tower.
+						</div>
+						<div class="testimonials__slider-person">
+							<div class="testimonials__slider-img">
+								<img src="img/testimonials/1.jpg" alt="">
+							</div>
+							<div class="testimonials__slider-label">
+								<div class="testimonials__slider-name">
+									Andrew Strauss
+								</div>
+								<div class="testimonials__slider-city">
+									From New York, USA
+								</div>
+							</div>
+						</div>
 
 
-	
+					</div>
+					<div class="testimonials__slider-item">
+						<div class="testimonials__slider-text">
+							High-quality services such as flat-screen TV, slippers, separate living room, Wi-Fi, air
+							conditioning, you can completely relax and recharge after a long and rewarding day. In
+							addition to the wide range of leisure services offered by the accommodation, you will have
+							many opportunities for entertainment. If you are looking for a comfortable and convenient
+							place to stay in Bangkok, choose Baiyoke Suite Hotel as your second home during your
+							vacation.
+						</div>
+						<div class="testimonials__slider-person">
+							<div class="testimonials__slider-img">
+								<img src="img/testimonials/2.jpg" alt="">
+							</div>
+							<div class="testimonials__slider-label">
+								<div class="testimonials__slider-name">
+									Gabit Korgan
+								</div>
+								<div class="testimonials__slider-city">
+									London, UK
+								</div>
+							</div>
+						</div>
 
 
-		<!-- @import "footer.html" -->
+					</div>
+					<div class="testimonials__slider-item">
+						<div class="testimonials__slider-text">
+							offers many facilities to enrich your stay in Bangkok. Guests of the hotel can enjoy on-site
+							features like 24-hour room service, free Wi-Fi in rooms, 24-hour front desk, luggage
+							storage, Wi-Fi in public areas.
+						</div>
+						<div class="testimonials__slider-person">
+							<div class="testimonials__slider-img">
+								<img src="img/testimonials/3.jpg" alt="">
+							</div>
+							<div class="testimonials__slider-label">
+								<div class="testimonials__slider-name">
+									Indira Miro
+								</div>
+								<div class="testimonials__slider-city">
+									LA, USA
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ================================================================ -->
+		<section class="video">
+			<div class="video__title title">
+				Keep Clam And
+				Enjoy Vaction
+			</div>
+			<a href="#" class="video__icon">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+					<title>play</title>
+					<path
+						d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 29c-7.18 0-13-5.82-13-13s5.82-13 13-13 13 5.82 13 13-5.82 13-13 13zM12 9l12 7-12 7z">
+					</path>
+				</svg>
+
+			</a>
+		</section>
+		<!-- ================================================================ -->
+		<footer class="footer" id="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<div class="footer__row">
+						<div class="footer__column">
+							<a href="#up" class="footer__column-logo">
+								Airbooking
+							</a>
+							<a href="#" class="footer__column-item">
+								Lorem ipsum dolor sit amet, conser adipiscing elit. In consectetur tincidunt dolor.
+							</a>
+							<a href="#" class="footer__column-item-icon map">
+								2345 Lyon Avenue
+								<br>
+								Boston, MA, Massachusetts
+							</a>
+							<a href="#" class="footer__column-item-icon phone">
+								508-960-5584
+								<br>
+								857-366-4240
+							</a>
+						</div>
+						<div class="footer__column">
+							<a href="#" class="footer__column-title">
+								Quick Links
+							</a>
+							<a href="#" class="footer__column-item">
+								Accomodation
+							</a>
+							<a href="#" class="footer__column-item">
+								Food & Drinks
+							</a>
+							<a href="#" class="footer__column-item">
+								Wellness
+							</a>
+							<a href="#" class="footer__column-item">
+								Manifesto
+							</a>
+							<a href="#" class="footer__column-item">
+								Beach Venues
+							</a>
+							<a href="#" class="footer__column-item">
+								Noordwijk
+							</a>
+						</div>
+						<div class="footer__column">
+							<div class="footer__column-title">
+								Connect With Us
+							</div>
+							<div class="footer__column-socals">
+								<a href="#">
+									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="28"
+										viewBox="0 0 16 28">
+										<title>facebook</title>
+										<path
+											d="M14.984 0.187v4.125h-2.453c-1.922 0-2.281 0.922-2.281 2.25v2.953h4.578l-0.609 4.625h-3.969v11.859h-4.781v-11.859h-3.984v-4.625h3.984v-3.406c0-3.953 2.422-6.109 5.953-6.109 1.687 0 3.141 0.125 3.563 0.187z">
+										</path>
+									</svg>
+
+								</a>
+								<a href="#">
+									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="26" height="28"
+										viewBox="0 0 26 28">
+										<title>twitter</title>
+										<path
+											d="M25.312 6.375c-0.688 1-1.547 1.891-2.531 2.609 0.016 0.219 0.016 0.438 0.016 0.656 0 6.672-5.078 14.359-14.359 14.359-2.859 0-5.516-0.828-7.75-2.266 0.406 0.047 0.797 0.063 1.219 0.063 2.359 0 4.531-0.797 6.266-2.156-2.219-0.047-4.078-1.5-4.719-3.5 0.313 0.047 0.625 0.078 0.953 0.078 0.453 0 0.906-0.063 1.328-0.172-2.312-0.469-4.047-2.5-4.047-4.953v-0.063c0.672 0.375 1.453 0.609 2.281 0.641-1.359-0.906-2.25-2.453-2.25-4.203 0-0.938 0.25-1.797 0.688-2.547 2.484 3.062 6.219 5.063 10.406 5.281-0.078-0.375-0.125-0.766-0.125-1.156 0-2.781 2.25-5.047 5.047-5.047 1.453 0 2.766 0.609 3.687 1.594 1.141-0.219 2.234-0.641 3.203-1.219-0.375 1.172-1.172 2.156-2.219 2.781 1.016-0.109 2-0.391 2.906-0.781z">
+										</path>
+									</svg>
+
+
+								</a>
+								<a href="#">
+									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="28"
+										viewBox="0 0 24 28">
+										<title>linkedin</title>
+										<path
+											d="M5.453 9.766v15.484h-5.156v-15.484h5.156zM5.781 4.984c0.016 1.484-1.109 2.672-2.906 2.672v0h-0.031c-1.734 0-2.844-1.188-2.844-2.672 0-1.516 1.156-2.672 2.906-2.672 1.766 0 2.859 1.156 2.875 2.672zM24 16.375v8.875h-5.141v-8.281c0-2.078-0.75-3.5-2.609-3.5-1.422 0-2.266 0.953-2.641 1.875-0.125 0.344-0.172 0.797-0.172 1.266v8.641h-5.141c0.063-14.031 0-15.484 0-15.484h5.141v2.25h-0.031c0.672-1.062 1.891-2.609 4.672-2.609 3.391 0 5.922 2.219 5.922 6.969z">
+										</path>
+									</svg>
+
+
+								</a>
+								<a href="#">
+									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="28"
+										viewBox="0 0 24 28">
+										<title>instagram</title>
+										<path
+											d="M16 14c0-2.203-1.797-4-4-4s-4 1.797-4 4 1.797 4 4 4 4-1.797 4-4zM18.156 14c0 3.406-2.75 6.156-6.156 6.156s-6.156-2.75-6.156-6.156 2.75-6.156 6.156-6.156 6.156 2.75 6.156 6.156zM19.844 7.594c0 0.797-0.641 1.437-1.437 1.437s-1.437-0.641-1.437-1.437 0.641-1.437 1.437-1.437 1.437 0.641 1.437 1.437zM12 4.156c-1.75 0-5.5-0.141-7.078 0.484-0.547 0.219-0.953 0.484-1.375 0.906s-0.688 0.828-0.906 1.375c-0.625 1.578-0.484 5.328-0.484 7.078s-0.141 5.5 0.484 7.078c0.219 0.547 0.484 0.953 0.906 1.375s0.828 0.688 1.375 0.906c1.578 0.625 5.328 0.484 7.078 0.484s5.5 0.141 7.078-0.484c0.547-0.219 0.953-0.484 1.375-0.906s0.688-0.828 0.906-1.375c0.625-1.578 0.484-5.328 0.484-7.078s0.141-5.5-0.484-7.078c-0.219-0.547-0.484-0.953-0.906-1.375s-0.828-0.688-1.375-0.906c-1.578-0.625-5.328-0.484-7.078-0.484zM24 14c0 1.656 0.016 3.297-0.078 4.953-0.094 1.922-0.531 3.625-1.937 5.031s-3.109 1.844-5.031 1.937c-1.656 0.094-3.297 0.078-4.953 0.078s-3.297 0.016-4.953-0.078c-1.922-0.094-3.625-0.531-5.031-1.937s-1.844-3.109-1.937-5.031c-0.094-1.656-0.078-3.297-0.078-4.953s-0.016-3.297 0.078-4.953c0.094-1.922 0.531-3.625 1.937-5.031s3.109-1.844 5.031-1.937c1.656-0.094 3.297-0.078 4.953-0.078s3.297-0.016 4.953 0.078c1.922 0.094 3.625 0.531 5.031 1.937s1.844 3.109 1.937 5.031c0.094 1.656 0.078 3.297 0.078 4.953z">
+										</path>
+									</svg>
+
+
+								</a>
+								<a href="#">
+									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+										viewBox="0 0 28 28">
+										<title>youtube</title>
+										<path
+											d="M11.109 17.625l7.562-3.906-7.562-3.953v7.859zM14 4.156c5.891 0 9.797 0.281 9.797 0.281 0.547 0.063 1.75 0.063 2.812 1.188 0 0 0.859 0.844 1.109 2.781 0.297 2.266 0.281 4.531 0.281 4.531v2.125s0.016 2.266-0.281 4.531c-0.25 1.922-1.109 2.781-1.109 2.781-1.062 1.109-2.266 1.109-2.812 1.172 0 0-3.906 0.297-9.797 0.297v0c-7.281-0.063-9.516-0.281-9.516-0.281-0.625-0.109-2.031-0.078-3.094-1.188 0 0-0.859-0.859-1.109-2.781-0.297-2.266-0.281-4.531-0.281-4.531v-2.125s-0.016-2.266 0.281-4.531c0.25-1.937 1.109-2.781 1.109-2.781 1.062-1.125 2.266-1.125 2.812-1.188 0 0 3.906-0.281 9.797-0.281v0z">
+										</path>
+									</svg>
+
+
+
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- ================================================================ -->
+		<a href="#up" class="pageup">
+			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="28" viewBox="0 0 24 28">
+				<title>arrow-circle-up</title>
+				<path
+					d="M20.062 13.984c0-0.266-0.094-0.516-0.281-0.703l-7.078-7.078c-0.187-0.187-0.438-0.281-0.703-0.281s-0.516 0.094-0.703 0.281l-7.078 7.078c-0.187 0.187-0.281 0.438-0.281 0.703s0.094 0.516 0.281 0.703l1.422 1.422c0.187 0.187 0.438 0.281 0.703 0.281s0.516-0.094 0.703-0.281l2.953-2.953v7.844c0 0.547 0.453 1 1 1h2c0.547 0 1-0.453 1-1v-7.844l2.953 2.953c0.187 0.187 0.438 0.297 0.703 0.297s0.516-0.109 0.703-0.297l1.422-1.422c0.187-0.187 0.281-0.438 0.281-0.703zM24 14c0 6.625-5.375 12-12 12s-12-5.375-12-12 5.375-12 12-12 12 5.375 12 12z">
+				</path>
+			</svg>
+
+		</a>
 	</div>
 	<!-- @import "popup.html" -->
 	<!-- @import "js.html" -->
